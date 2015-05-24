@@ -34,8 +34,8 @@
 	
 	h1, h2, h3, h4, h5, h6
 	{
-		color: #252122;
-		font-weight: 700;
+		/* color: #252122;
+		font-weight: 700; */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -47,7 +47,7 @@
 	a
 	{
 		color: #d52349;
-		text-decoration: underline;
+		/* text-decoration: underline; */
 	}
 	
 		a:hover
@@ -100,7 +100,9 @@
 		margin-bottom: 2em;
 	}
 	
-	section,
+	section{
+		margin-bottom: 0em;
+	}
 	article
 	{
 		margin-bottom: 2.5em;
