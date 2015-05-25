@@ -1,1 +1,1 @@
-# MyUniversity1
+# MyUniversity
