@@ -5664,7 +5664,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   background-size: 16px 16px;
   border-radius: 6px 6px 0 0;
   }
-.todo-search:before {
+/* .todo-search:before {
   position: absolute;
   top: 50%;
   left: 92%;
@@ -5674,7 +5674,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   font-size: 16px;
   line-height: 17px;
   content: "\e630";
-  }
+  } */
 .todo-search-field {
   padding: 5px 0;
   margin: 0;

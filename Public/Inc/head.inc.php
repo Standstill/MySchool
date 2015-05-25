@@ -25,6 +25,7 @@
 		<link href="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
 		<!-- Loading Flat UI -->
 		<link href="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/dist/css/flat-ui.css" rel="stylesheet">
+		<link href="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/docs/assets/css/demo.css" rel="stylesheet">
 		<!--[if lte IE 8]><script src="<?php echo __ROOT__; ?>/Public/Script/html5shiv.js"></script><link rel="stylesheet" href="<?php echo __ROOT__; ?>/Public/Css/ie8.css" />
 		<![endif]-->
 	</head>
@@ -111,12 +112,12 @@
 							                    <li><a href="#">院校信息</a></li>
 							                    <li><a href="#">历史录取分数线</a></li>
 							                    <li class="divider"></li>
-							                    <li><a href="#">学校/专业对比系统</a></li>
+							                    <li><a href="#">学校/专业对比</a></li>
 							                    <li class="divider"></li>
-							                    <li><a href="#">职业测评系统</a></li>
+							                    <li><a href="#">职业测评</a></li>
 							                  </ul>
 							                </li>
-							                <li><a href="#fakelink">志愿填报模拟系统</a></li>
+							                <li><a href="#fakelink">志愿填报模拟</a></li>
 							                 <li><a href="#fakelink">心愿墙</a></li>
 							               </ul>
 							               <form class="navbar-form navbar-right" action="#" role="search">

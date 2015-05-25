@@ -4,6 +4,7 @@
  */
 
 /* Prettyfy Theme */
+/*
 .prettyprint {
   padding: 15px 21px;
   font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
@@ -92,7 +93,9 @@
     color: #060;
     }
   }
+  */
 /* Specify class=linenums on a pre to get line numbering */
+/*
 ol.linenums {
   margin-top: 0;
   margin-bottom: 0;
@@ -100,6 +103,7 @@ ol.linenums {
 .container {
   width: 970px !important;
   }
+  */
 .demo-headline {
   padding: 73px 0 110px;
   text-align: center;
