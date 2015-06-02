@@ -50,7 +50,7 @@
 									<tr style="background-color:#FAFAFA;">
 										<td style="vertical-align:middle;">
 											<div style="float:left;width:40%;">
-												<img src="/MyUniversity/Public/Img/pic0<?php echo $i+2; ?>.jpg" style="width:60px;height:50px;float:right;" />
+												<img src="/TestMyUniversity/Public/Img/pic0<?php echo $i+2; ?>.jpg" style="width:60px;height:50px;float:right;" />
 											</div>
 											<h6><?php echo $SchoolInfo[$i][0]; ?></h6>
 										</td>

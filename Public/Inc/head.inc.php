@@ -7,7 +7,8 @@
 		<meta name="keywords" content="" />
 
 		<!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic" rel="stylesheet" />
-		 --><script src="<?php echo __ROOT__; ?>/Public/Script/jquery.min.js"></script>
+		 -->
+		<script type="text/javascript" src="<?php echo __ROOT__; ?>/Public/Script/jquery.min.js"></script>
 		<script src="<?php echo __ROOT__; ?>/Public/Script/jquery.dropotron.js"></script>
 		<script src="<?php echo __ROOT__; ?>/Public/Script/config.js"></script>
 		<script>
@@ -98,7 +99,7 @@
 
 								</section>
 								
-								 <div class="row demo-row">
+								 <div class="row demo-row" style="margin-bottom:0;">
 							        <div class="col-xs-12">
 							          <nav class="navbar navbar-inverse navbar-embossed" role="navigation" style="margin-bottom: 1em;">
 							            <div class="collapse navbar-collapse" id="navbar-collapse-01">

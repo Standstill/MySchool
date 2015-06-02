@@ -63,7 +63,10 @@
 				
 			</div>
 			
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+<div style="display:none">
+	<!-- <script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'>
+	</script> -->
+</div>
 </body>
  <script src="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/dist/js/vendor/jquery.min.js"></script>
  <script src="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/dist/js/vendor/video.js"></script>
