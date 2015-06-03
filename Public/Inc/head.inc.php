@@ -29,6 +29,7 @@
 		<link href="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/docs/assets/css/demo.css" rel="stylesheet">
 		<!--[if lte IE 8]><script src="<?php echo __ROOT__; ?>/Public/Script/html5shiv.js"></script><link rel="stylesheet" href="<?php echo __ROOT__; ?>/Public/Css/ie8.css" />
 		<![endif]-->
+		<link rel="stylesheet" href="<?php echo __ROOT__; ?>/Public/Css/major.css" />
 	</head>
 	<body class="homepage">
 

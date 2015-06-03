@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+#majorPage .inner {margin-top: 0; margin-bottom: 30px;}
+.majorSide {width: 180px; float: left;}
+.majorSide h3 {text-align: center; margin-bottom: 5px; margin-top: 0; background-color: #2CB9A9; color: #FFF; font-size: 16px; line-height: 37px; font-weight: normal;}
+.majorSide ul {line-height: 33px; margin-bottom: 15px; background: url(../Img/school_baseInfo.png);}
+.majorSide li {float: left; padding-left: 10px; margin-right: 5px; white-space: nowrap;}
+.majorSide li.current a {color: #ED5644;}
+
+
+.majorContent {width: 900px; float: right;}
+.majorDefTitle {border-bottom: 1px solid #E5E5E5;}
+.majorDefTitle h2 {font-size: 18px; font-weight: normal; line-height: 37px; color: #2CB9A9; padding-left: 25px; background: url(../Img/major_arrow.png) no-repeat 0 12px;}
+.majorDef {border: 1px solid #D6D6D6; margin: 15px 0; padding: 10px 0 10px 25px;}
+.majorDef li {float: left; margin-right: 25px; line-height: 30px;}
+
+.majorTitle {border-bottom: 1px solid #E5E5E5;}
+.majorTitle h1 {font-size: 18px; font-weight: normal; line-height: 37px; color: #ED5644; padding-left: 25px; background: url(../Img/major_arrow.png) no-repeat 0 -38px;}
+
+.majorList li {border-bottom: 1px solid #E5E5E5; padding: 15px 0 20px 25px;}
+.majorList h3 {font-size: 16px; line-height:30px;}
+.majorList h3 a {color: #2CB9A9;}
+.majorList h3 a:hover {color: #ED5644;}
+.majorList .btns {float: right; margin-top: -20px; height: 20px;}
+.majorList .btn {background-color: #55C4B8; border-bottom: 1px solid #739F99; color: #FFF; height: 25px; line-height: 25px; width: 80px;}
+.majorList .con span {margin-right: 40px;}
+.majorList .con p {color: #999; margin-top: 6px;}
+.majorList .con p strong {display: block; color: #333;}
+
+.majorContent .pager {padding-top: 30px;}
+
+.majorBase {margin: 15px 0 10px;}
+.majorBase h3 {margin-right: 40px; font-size: 16px; font-weight: bold; float:left;}
+.majorBase .course {clear:both;padding:15px 0 0;color: #999;overflow:hidden;*zoom:1;}
+.majorBase .course h3 {float:none;color:#333;}
+.majorBase .course a {color: #05A; margin-right: 20px;white-space:nowrap;float:left;}
+
+
+.majorTab {border-bottom: 2px solid #CCC; height: 40px; line-height: 40px; font-size: 16px; margin-top: 25px;}
+.majorTab li {float: left; margin-left: -1px; width: 151px; border: 1px solid #E5E5E5; border-bottom: 0; text-align: center;}
+.majorTab li a {display: block;}
+.majorTab li.current {background-color: #55C4B8; border-color: #55C4B8; color: #FFF; position: relative; height: 41px;}
+.majorTab li.current a {color: #FFF;}
+
+.majorCon {margin-top: 20px;}
+.majorCon .cat {font-weight: bold; display:block; clear:both;}
+.majorCon p {margin-bottom: 1em; line-height: 1.8em; color: #666; text-align: justify; word-wrap: break-word;}
+.majorCon h3 {font-size:14px;}
+.majorCon strong {font-weight: normal;}
+
+.majorCon .slist {margin-top: -20px;}
+.majorCon .slist li {padding: 25px 0; border-bottom: 1px solid #E5E5E5; line-height: 25px;}
+.majorCon .slist .pic {float: left; margin-right: 20px;}
+.majorCon .slist .pic img {width: 120px; height: 120px;}
+.majorCon .slist .con {float: left;}
+.majorCon .slist .tit {overflow: hidden; zoom: 1; margin: 6px 0;}
+.majorCon .slist h3 {font-size: 20px; font-weight: normal; line-height: 22px; float: left; max-width: 620px;}
+.majorCon .slist h3 a {color: #55C4B8;}
+.majorCon .slist .pic a, .majorCon .slist .pic a img {background: url(../Img/dimg.jpg) no-repeat scroll center center #E8E8E8; width: 120px; height: 120px; display: block;}
+.majorCon .slist .s {float: left; color: #666;}
+.majorCon .slist .s1 {width: 160px;}
+.majorCon .slist .s2 {width: 160px;}
+.majorCon .slist .s3 {width: 200px;}
+.majorCon .slist .s3 .sort {color: #ED5644;}
+.majorCon .slist .s3 label {padding-right: 5px;}
+.majorCon .slist .s3 a {background-color: #51C3B7; color: #FFF; display: inline-block; line-height: 20px; padding: 0 5px; font-size: 12px; border-radius: 3px;}
+.majorCon .slist .s3 .bar {display: inline-block; line-height: 12px; font-size: 12px;}
+.majorCon .slist .s3 .bar2 {float: left; height: 12px; background-color: #DCDCDC; margin-right: 5px; width: 100px;}
+.majorCon .slist .s3 .bar2 span {display: inline-block; height: 12px; background-color: #51C3B7;}
+.majorCon .slist .btn {float: left; margin-top: 5px; width: 80px; height: 35px; line-height: 35px; background-color: #55C4B8; color: #FFF; border-bottom: 1px solid #739F99;}
+.majorCon .slist .tag {clear: both; line-height: 21px; padding-top: 6px;}
+.majorCon .slist .tag span {margin-right: 6px; display: inline-block; background: url(../Img/school_img.png) no-repeat 0 -100px;}
+.majorCon .slist .tag cite {color: #FFF; float: left; height: 22px; margin-left: 22px; padding-right: 12px; background: url(../Img/school_img.png) no-repeat 100% -100px;}
+
+.workDirection {border: 1px solid #E5E5E5;}
+.workDirection dt {background-color: #F0F0F0; font-size: 16px; border-bottom: 1px solid #E5E5E5; padding-left: 15px; line-height: 32px;}
+.workDirection dd {padding: 10px 15px;}
+.workDirection dd a {margin-right: 25px; line-height: 30px; white-space: nowrap; color: #05A;}
+
+.majorTable {width: 100%; border-top: 3px solid #55C4B8;}
+.majorTable th {line-height: 18px; padding: 12px 0; color: #55C4B8; font-size: 16px; border-left: 1px solid #DDD; border-bottom: 1px solid #55C4B8;}
+.majorTable td {line-height: 18px; padding: 8px; border-left: 1px solid #DDD; border-bottom: 1px solid #DDD; text-align: center; color: #666;}
+.majorTable th.t1, .majorTable td.t1 {border-left: 0;}
+.majorTable a {color: #05A;}
+.majorTable a:hover {color: #333; text-decoration: underline;}
+
+
+
+.majorSearch {height: 45px; margin-bottom: 10px; background-color: #EDEEF0; border: 1px solid #E5E5E5;}
+.majorSearch label {float: left; margin: 0 10px 0 25px; font-size: 16px; line-height:45px;}
+.majorSearch .keyword {float: left; margin: 6px 0 0;}
+.majorSearch .keyword .inp {border: 1px solid #DDD; border-radius: 5px 0 0 5px; width: 150px; height: 30px; line-height: 30px; text-indent: 5px;}
+.majorSearch .btns {float: left; margin: 6px 0 0 -1px;}
+.majorSearch .btn {background-color: #ED5644; color: #FFF; border-radius: 0 5px 5px 0; border-bottom: 2px solid #AC3E31; width: 70px; height: 32px;}
+
+.majorSearch .type {line-height:32px;float:right;padding:0 5px 0 20px;color:#CCC;margin: 6px 0 0}
+.majorSearch .type a {background-color: #2CB9A9; color: #FFF; border-bottom: 2px solid #388880; border-radius: 5px; padding: 0 15px; float: left; margin-right:5px; height: 32px}
+.majorTitle .back {float:right;margin-top: -30px;}
+.majorTitle .back a {background-color: #2CB9A9; color: #FFF; border-bottom: 1px solid #388880; border-radius: 5px; padding: 0 10px; float: left; line-height: 25px}
+
+.catTitle {height: 35px; border-left: 5px solid #55C4B8; padding-left: 20px; margin-bottom: 10px;}
+.catTitle h3 {font-size: 26px; line-height: 35px; font-weight: normal; color: #55C4B8;}
+/* 20140509 ADD */
+/*.majorTab li {width: auto;}
+.majorTab li a {padding: 0 40px;}*/
+.majorCon .mTxt {clear: both; margin-bottom: 15px;}
+.majorCon .mMod {margin: 0 0 15px;}
+.majorCon .fl {float: left; width: 320px; border-right: 1px solid #DDD;}
+.majorCon .fr {float: right; width: 410px;}
+.majorCon .mMod h3 {border-bottom: 1px solid #55C4B8; font-size: 14px; padding-bottom: 5px; margin-bottom: 5px;}
+.majorCon .fl h3, .majorCon .fl .mBd {margin-right: 30px;}
+.majorCon .bli li {height: 28px; line-height: 28px; overflow: hidden; vertical-align: top;}
+.majorCon .bli li * {float: left;}
+.majorCon .bli .a {width: 16px; height: 16px; line-height: 16px; border-radius: 10px; font-size: 12px; margin: 6px 6px 0 0; text-align: center; background-color: #999; color: #FFF;}
+.majorCon .bli .top {background-color: #ED5644;}
+.majorCon .bli .b {width: 60px;}
+.majorCon .bli .c {width: 85px; text-align: right; padding-right: 20px; font-size: 12px; color: #999;}
+.majorCon .bli .d {width: 100px; height:10px; margin-top: 11px;}
+.majorCon .bli .d em {height: 8px; background:#55C4B8; border-radius: 4px;}
+
+.majorCon .mMod .tip {color:#999; text-align: right;}
+.majorCon .salary {color: #55C4B8; margin-top: -5px;}
+.majorCon .salary .money {font-size: 30px; color: #ED5644; display: block;}
+.majorCon .salary .chart {height: 175px; margin-top: 15px;}
+
+.majorCon .mdBox {float: left; width: 32%;}
+.majorCon .mb1 {width: 36%;}
+.majorCon .mb2 {width: 35%;}
+.majorCon .mb3 {width: 28%;}
+.majorCon .mdBox h4 {font-size: 14px; font-weight: normal; margin-bottom: 5px;}
+.majorCon .hasli {font-size: 12px;}
+.majorCon .hasli li {height: 25px; line-height: 25px; overflow: hidden; vertical-align: top;}
+.majorCon .hasli li * {float: left;}
+.majorCon .hasli .a {width: 85px;}
+.majorCon .mb1 .hasli .a {width: 85px;}
+.majorCon .mb2 .hasli .a {width: 75px;}
+.majorCon .mb3 .hasli .a {width: 65px;}
+.majorCon .hasli .b {width: 100px; border:1px solid #2CB9A9; height: 8px; margin: 6px 5px 0 0; padding: 1px; border-radius: 5px;}
+.majorCon .hasli .b em {height: 8px; background-color: #2CB9A9; border-radius: 4px;}
+.majorCon .hasli .c {color: #999;}
+.majorCon .mb1 .b {border-color: #FFA086}
+.majorCon .mb1 .b em {background-color: #FFA086}
+.majorCon .mb2 .b {border-color: #C1D395}
+.majorCon .mb2 .b em {background-color: #C1D395}
+.majorCon .mb3 .b {border-color: #ADCBC8}
+.majorCon .mb3 .b em {background-color: #ADCBC8}
