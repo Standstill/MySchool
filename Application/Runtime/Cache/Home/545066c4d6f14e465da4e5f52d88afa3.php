@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit(); require 'Public/Inc/head.inc.php'; ?>
-<link rel="stylesheet" href="/TestMyUniversity/Public/Plugin/FocusChart/css/index0521.css">
-<script type="text/javascript" src="/TestMyUniversity/Public/Plugin/FocusChart/js/jquery-1.8.3.min.js"></script>
+<link rel="stylesheet" href="/MyUniversity/Public/Plugin/FocusChart/css/index0521.css">
+<script type="text/javascript" src="/MyUniversity/Public/Plugin/FocusChart/js/jquery-1.8.3.min.js"></script>
 					<div class="row">
 						<div class="12u" style="padding:0;">
 
@@ -12,31 +12,31 @@
 			<ul class="heros clearfix">
 				<li class="hero">
 				<a id="jdtpic1" href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/1430828144464_.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/1430828144464_.jpg"></a></li>
 				<li class="hero">
 				<a href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/1400225686925_.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/1400225686925_.jpg"></a></li>
 				<li class="hero">
 				<a href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/1431945288861_.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/1431945288861_.jpg"></a></li>
 				<li class="hero">
 				<a href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/1431864610956_.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/1431864610956_.jpg"></a></li>
 				<li class="hero">
 				<a href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/1431682421036_.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/1431682421036_.jpg"></a></li>
 				<li class="hero">
 				<a href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/1431252761602_.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/1431252761602_.jpg"></a></li>
 				<li class="hero">
 				<a href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/1431341253113_.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/1431341253113_.jpg"></a></li>
 				<li class="hero">
 				<a href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/1429844270248_.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/1429844270248_.jpg"></a></li>
 				<li class="hero">
 				<a href="http://sc.chinaz.com/" target="_blank">
-				<img src="/TestMyUniversity/Public/Plugin/FocusChart/images/younger.jpg"></a></li>
+				<img src="/MyUniversity/Public/Plugin/FocusChart/images/younger.jpg"></a></li>
 			</ul>
 		</div>
 		<div class="helper">
@@ -45,8 +45,8 @@
 		</div>
 	</div>
 <!-- </div>	 -->
-<script type="text/javascript" src="/TestMyUniversity/Public/Plugin/FocusChart/js/if.Common.Banner.js"></script>
-<script type="text/javascript" src="/TestMyUniversity/Public/Plugin/FocusChart/js/index.js"></script>
+<script type="text/javascript" src="/MyUniversity/Public/Plugin/FocusChart/js/if.Common.Banner.js"></script>
+<script type="text/javascript" src="/MyUniversity/Public/Plugin/FocusChart/js/index.js"></script>
 <script type="text/javascript">
 jQuery(function(){
 	var len = jQuery(".heros li").length;
@@ -128,7 +128,7 @@ jQuery(function(){
 										<div class="row">
 											<div class="4u">
 												<section class="box">
-													<a href="http://sc.chinaz.com" class="image image-full"><img src="/TestMyUniversity/Public/Img/pic02.jpg" alt="" /></a>
+													<a href="http://sc.chinaz.com" class="image image-full"><img src="/MyUniversity/Public/Img/pic02.jpg" alt="" /></a>
 													<header>
 														<h3>Ipsum feugiat et dolor</h3>
 													</header>
@@ -140,7 +140,7 @@ jQuery(function(){
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://sc.chinaz.com" class="image image-full"><img src="/TestMyUniversity/Public/Img/pic03.jpg" alt="" /></a>
+													<a href="http://sc.chinaz.com" class="image image-full"><img src="/MyUniversity/Public/Img/pic03.jpg" alt="" /></a>
 													<header>
 														<h3>Sed etiam lorem nulla</h3>
 													</header>
@@ -152,7 +152,7 @@ jQuery(function(){
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://sc.chinaz.com" class="image image-full"><img src="/TestMyUniversity/Public/Img/pic04.jpg" alt="" /></a>
+													<a href="http://sc.chinaz.com" class="image image-full"><img src="/MyUniversity/Public/Img/pic04.jpg" alt="" /></a>
 													<header>
 														<h3>Consequat et tempus</h3>
 													</header>
@@ -166,7 +166,7 @@ jQuery(function(){
 										<div class="row">
 											<div class="4u">
 												<section class="box">
-													<a href="http://sc.chinaz.com" class="image image-full"><img src="/TestMyUniversity/Public/Img/pic05.jpg" alt="" /></a>
+													<a href="http://sc.chinaz.com" class="image image-full"><img src="/MyUniversity/Public/Img/pic05.jpg" alt="" /></a>
 													<header>
 														<h3>Blandit sed adipiscing</h3>
 													</header>
@@ -178,7 +178,7 @@ jQuery(function(){
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://sc.chinaz.com" class="image image-full"><img src="/TestMyUniversity/Public/Img/pic06.jpg" alt="" /></a>
+													<a href="http://sc.chinaz.com" class="image image-full"><img src="/MyUniversity/Public/Img/pic06.jpg" alt="" /></a>
 													<header>
 														<h3>Etiam nisl consequat</h3>
 													</header>
@@ -190,7 +190,7 @@ jQuery(function(){
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://sc.chinaz.com" class="image image-full"><img src="/TestMyUniversity/Public/Img/pic07.jpg" alt="" /></a>
+													<a href="http://sc.chinaz.com" class="image image-full"><img src="/MyUniversity/Public/Img/pic07.jpg" alt="" /></a>
 													<header>
 														<h3>Dolore nisl feugiat</h3>
 													</header>
