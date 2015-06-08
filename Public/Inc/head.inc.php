@@ -9,6 +9,9 @@
 		<!-- <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic" rel="stylesheet" />
 		 -->
 		<script type="text/javascript" src="<?php echo __ROOT__; ?>/Public/Script/jquery.min.js"></script>
+		<script type="text/javascript">
+		var jQ = $.noConflict();
+		</script>
 		<script src="<?php echo __ROOT__; ?>/Public/Script/jquery.dropotron.js"></script>
 		<script src="<?php echo __ROOT__; ?>/Public/Script/config.js"></script>
 		<script>
@@ -29,7 +32,7 @@
 		<link href="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/docs/assets/css/demo.css" rel="stylesheet">
 		<!--[if lte IE 8]><script src="<?php echo __ROOT__; ?>/Public/Script/html5shiv.js"></script><link rel="stylesheet" href="<?php echo __ROOT__; ?>/Public/Css/ie8.css" />
 		<![endif]-->
-		<link rel="stylesheet" href="<?php echo __ROOT__; ?>/Public/Css/major.css" />
+		
 	</head>
 	<body class="homepage">
 
@@ -136,6 +139,13 @@
 							          </nav><!-- /navbar -->
 							        </div>
 							      </div> <!-- /row -->
-
+								
+								<div class="row" style="height:30px;">
+									<div style="float:left;padding-top:0;padding-left:20px;">
+										<a href="#"><span style="color:black;font-size:0.8em;">查询信息</span></a>
+										<span style="margin-left:0.5em;">></span>
+										<span style="margin-left:0.5em;color:#666666;font-size:0.8em;">院校排名</span>
+									</div>
+								</div>
 						</div>
 					</div>

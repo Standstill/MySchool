@@ -1,3 +1,5 @@
+</div>
+</div>
 <!-- Footer Wrapper -->
 			<div id="footer-wrapper">
 				
@@ -68,7 +70,7 @@
 	</script> -->
 </div>
 </body>
- <script src="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/dist/js/vendor/jquery.min.js"></script>
+ <!-- <script src="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/dist/js/vendor/jquery.min.js"></script> -->
  <script src="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/dist/js/vendor/video.js"></script>
  <script src="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/dist/js/flat-ui.min.js"></script>
  <script src="<?php echo __ROOT__; ?>/Public/Plugin/FlatUI/docs/assets/js/application.js"></script>

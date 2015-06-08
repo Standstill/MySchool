@@ -1,3 +1,10 @@
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Plugin/ScrollPicture/slidedeck.skin.css" media="screen" />
+<!-- Styles for the skin that only load for Internet Explorer -->
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Plugin/ScrollPicture/slidedeck.skin.ie.css" media="screen,handheld" />
+<![endif]-->
+<script type="text/javascript" src="__PUBLIC__/Plugin/FocusChart/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Plugin/ScrollPicture/slidedeck.jquery.lite.js"></script>
 <?php require 'Public/Inc/head.inc.php'; ?>
 <div class="row demo-tiles" style="margin-bottom:1em;">
   <div class="col-xs-3">
@@ -60,49 +67,147 @@
 </div> <!-- /tiles -->
 <hr style="border-top:1px solid #eff0f2;margin-bottom:1em;"/>
 <div class="row demo-tiles" style="margin-bottom:1em;padding-top:1em;padding-left:15px;padding-right:15px;">
-	<div class="col-xs-3" style="padding-top:1em;width:100%;background-color:#eff0f2;height:235px;">
-		<div class="col-xs-3" style="height:200px;">
-			<div style="float:left;width:50%;height:100%;background-color:#CFCFCF;">
-				<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
-		 		<h3 class="tile-title">四川大学</h3>
-			</div>
-			<div style="float:left;width:50%;height:100%;padding-top:0.8em;background-color:#CCCCCC;">
-				<p style="font-size:0.9em;">Your likes, shares and comments helps us.</p>
-				<p style="font-size:0.9em;">100% convertable to HTML/CSS layout.</p>
-			</div>
+	<div class="col-xs-3" style="padding:0;width:100%;background-color:#eff0f2;">
+		<div id="slidedeck_frame" class="skin-slidedeck" style="height: 300px;">
+			<dl class="slidedeck" style="height: 255px;">
+				<dt>Slide 1</dt>
+				<dd>
+				<!-- <img src="__PUBLIC__/Plugin/ScrollPicture/images/1.jpg" style="width:100%;height:100%;"/> -->
+					<div style="width:100%;height:100%;">
+						<div style="width:30%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+							<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
+      						<h3 class="tile-title">大连理工大学</h3>
+						</div>
+						<div style="width:30%;height:100%;background-color:#C0C0C0;float:left;text-align:center;padding-top:1em;">
+							<p>Your likes, shares and comments helps us.</p>
+							<p>100% convertable to HTML/CSS layout.</p>
+							<p>100% convertable to HTML/CSS layout.</p>
+						</div>
+						<div style="width:40%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+							<p>Your likes, shares and comments helps us.</p>
+							<p>100% convertable to HTML/CSS layout.</p>
+							<p>100% convertable to HTML/CSS layout.</p>
+							<p>100% convertable to HTML/CSS layout.</p>
+						</div>
+					</div>
+				</dd>
+				<dt>Slide 2</dt>
+				<dd>
+					<div style="width:30%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/compas.svg" alt="Compas" class="tile-image big-illustration">
+      					<h3 class="tile-title">北京大学</h3>
+					</div>
+					<div style="width:30%;height:100%;background-color:#C0C0C0;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+					<div style="width:40%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+				</dd>
+				<dt>Slide 3</dt>
+				<dd>
+					<div style="width:30%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
+     						<h3 class="tile-title">大连理工大学</h3>
+					</div>
+					<div style="width:30%;height:100%;background-color:#C0C0C0;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+					<div style="width:40%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+				</dd>
+				<dt>Slide 4</dt>
+				<dd>
+					<div style="width:30%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/loop.svg" alt="Infinity-Loop" class="tile-image">
+     					 <h3 class="tile-title">清华大学</h3>
+					</div>
+					<div style="width:30%;height:100%;background-color:#C0C0C0;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+					<div style="width:40%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+				</dd>
+				<dt>Slide 5</dt>
+				<dd>
+					<div style="width:30%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
+     						<h3 class="tile-title">大连理工大学</h3>
+					</div>
+					<div style="width:30%;height:100%;background-color:#C0C0C0;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+					<div style="width:40%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+				</dd>
+				<dt>Slide 6</dt>
+				<dd>
+					<div style="width:30%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/chat.svg" alt="Chat" class="tile-image">
+     				 <h3 class="tile-title">四川大学</h3>
+					</div>
+					<div style="width:30%;height:100%;background-color:#C0C0C0;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+					<div style="width:40%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+				</dd>
+				<dt>Slide 7</dt>
+				<dd>
+					<div style="width:30%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
+     						<h3 class="tile-title">大连理工大学</h3>
+					</div>
+					<div style="width:30%;height:100%;background-color:#C0C0C0;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+					<div style="width:40%;height:100%;background-color:#CCCCCC;float:left;text-align:center;padding-top:1em;">
+						<p>Your likes, shares and comments helps us.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+						<p>100% convertable to HTML/CSS layout.</p>
+					</div>
+				</dd>
+			</dl>
 		</div>
-	    <div class="col-xs-3" style="height:200px;">
-	    	<div style="float:left;width:50%;height:100%;background-color:#CFCFCF;">
-				<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
-		 		<h3 class="tile-title">四川大学</h3>
-			</div>
-			<div style="float:left;width:50%;height:100%;padding-top:0.8em;background-color:#CCCCCC;">
-				<p style="font-size:0.9em;">Your likes, shares and comments helps us.</p>
-				<p style="font-size:0.9em;">100% convertable to HTML/CSS layout.</p>
-			</div>
-	    </div>
-	    <div class="col-xs-3" style="height:200px;">
-	    	<div style="float:left;width:50%;height:100%;background-color:#CFCFCF;">
-				<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
-		 		<h3 class="tile-title">四川大学</h3>
-			</div>
-			<div style="float:left;width:50%;height:100%;padding-top:0.8em;background-color:#CCCCCC;">
-				<p style="font-size:0.9em;">Your likes, shares and comments helps us.</p>
-				<p style="font-size:0.9em;">100% convertable to HTML/CSS layout.</p>
-			</div>
-	    </div>
-	    <div class="col-xs-3" style="height:200px;">
-	    	<div style="float:left;width:50%;height:100%;background-color:#CFCFCF;">
-				<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/pencils.svg" alt="Pensils" class="tile-image">
-		 		<h3 class="tile-title">四川大学</h3>
-			</div>
-			<div style="float:left;width:50%;height:100%;padding-top:0.8em;background-color:#CCCCCC;">
-				<p style="font-size:0.9em;">Your likes, shares and comments helps us.</p>
-				<p style="font-size:0.9em;">100% convertable to HTML/CSS layout.</p>
-			</div>
-	    </div>
+		<script type="text/javascript">
+			$('.slidedeck').slidedeck({
+                autoPlay: true,
+                cycle: true, 
+                autoPlayInterval: 3000
+            });
+		</script>
 	</div>
 </div>
-				</div>
-			</div>
 <?php require 'Public/Inc/tail.inc.php'; ?>

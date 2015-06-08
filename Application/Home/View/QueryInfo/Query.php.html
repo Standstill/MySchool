@@ -40,9 +40,9 @@
 						
 					<div class="row">
 						<div class="12u" style="padding-left:0;padding-top:1em;text-align:center;">
-							<table style="width:100%;height:auto;border-bottom:1px solid #2f4154;">
-								<thead style="border-bottom:2px solid gray;">
-									<tr style="background-color:#2f4154;height:30px;color:white;">
+							<table style="width:100%;height:auto;border-bottom:1px solid #2f4154;border-spacing:1px;border-collapse:separate;background-color:#CCCCCC;">
+								<thead style="border-bottom:2px solid gray;border-spacing:0px;border-collapse:initial;">
+									<tr style="background-color:#2f4154;height:50px;color:white;">
 										<td style="width:250px;">院校名称</td>
 										<td>院校排名</td>
 										<td>硕博点&重点学科</td>
@@ -50,31 +50,33 @@
 										<td>院校层次</td>
 										<td>隶属</td>
 										<td>院校性质</td>
+										<td style="width:135px;">功能</td>
 									</tr>
 								</thead>
 <?php 
 	$SchoolInfo = array();
-	$SchoolInfo[0] = array("北京大学","全国1<br />综合1","硕博点100<br />重点学科 100","北京","211工程<br />985院校","教育部","公立");
-	$SchoolInfo[1] = array("清华大学","全国1<br />综合2","硕博点100<br />重点学科 100","北京","211工程<br />985院校","教育部","公立");
-	$SchoolInfo[2] = array("大连理工大学","全国27<br />综合27","硕博点100<br />重点学科 100","辽宁","211工程<br />985院校","教育部","公立");
-	$SchoolInfo[3] = array("四川大学","全国10<br />综合10","硕博点100<br />重点学科 100","四川","211工程<br />985院校","教育部","公立");
+	$SchoolInfo[0] = array("北京大学","全国 1<br />综合 1","硕博点100<br />重点学科 100","北京","211工程<br />985院校","教育部","公立");
+	$SchoolInfo[1] = array("清华大学","全国 1<br />综合 2","硕博点100<br />重点学科 100","北京","211工程<br />985院校","教育部","公立");
+	$SchoolInfo[2] = array("大连理工大学","全国 27<br />综合 27","硕博点100<br />重点学科 100","辽宁","211工程<br />985院校","教育部","公立");
+	$SchoolInfo[3] = array("四川大学","全国 10<br />综合 10","硕博点100<br />重点学科 100","四川","211工程<br />985院校","教育部","公立");
 
 	$BackgroundColor = array("#FAFAFA","#EEEEEE");
 ?>
 								<tbody>
 									<?php for($i=0;$i<count($SchoolInfo);$i++){ ?>
 									<tr style="background-color:#FAFAFA;">
-										<td style="vertical-align:middle;">
-											<div style="float:left;width:40%;">
-												<img src="__PUBLIC__/Img/pic0<?php echo $i+2; ?>.jpg" style="width:60px;height:50px;float:right;" />
-											</div>
-											<h6><?php echo $SchoolInfo[$i][0]; ?></h6>
+										<td>
+											<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/compas.svg" alt="Compas" class="tile-image big-illustration"  style="vertical-align:middle;">
+											<small style="vertical-align:middle;"><?php echo $SchoolInfo[$i][0]; ?></small>
 										</td>
 										<?php for($j=1;$j<count($SchoolInfo[$i]);$j++){ ?>
-										<td style="height:100%;">
+										<td>
 											<small><?php echo $SchoolInfo[$i][$j]; ?></small>
 										</td>
 										<?php } ?>
+										<td>
+											<a href="#fakelink" class="btn btn-block btn-lg btn-info" style="width:auto;height:30px;padding-top: 3px;padding-left: 17px;margin-left:1em;margin-right:1em;margin-top:0;font-size:0.8em;">加入对比</a>
+										</td>
 									</tr>
 									<?php } ?>
 								</tbody>
@@ -95,6 +97,4 @@
 				            </div>
 						</div>
 					</div>
-				</div>
-			</div>
 <?php require 'Public/Inc/tail.inc.php'; ?>

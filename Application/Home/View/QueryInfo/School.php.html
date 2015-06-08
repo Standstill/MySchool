@@ -2,7 +2,7 @@
 <script type="text/javascript" src="__PUBLIC__/Plugin/Highcharts/js/highcharts.js"></script>
 <script type="text/javascript" src="__PUBLIC__/Plugin/Highcharts/js/exporting.js"></script>
 <?php require 'Public/Inc/head.inc.php'; ?>
-<div class="row demo-samples">
+<div class="row demo-samples" style="padding-top:1em;">
        <div class="col-xs-4" style="width:300px;padding-top:0px;">
           <div class="todo">
             <div class="todo-search" style="height:135px;padding:10px;">
@@ -30,7 +30,7 @@
             </ul>
           </div><!-- /.todo -->
         </div><!-- /.col-xs-4 -->
-        <div class="col-xs-8" style="width:900px;background-color:#FAFAFA;height:1500px;padding-top:30px;">
+        <div class="col-xs-8" style="width:900px;background-color:#F3F3F3;height:1540px;padding-top:30px;">
         	<div style="width:50%;border:1px solid #EEEEEE;height:300px;float:left;">
         		<div style="width:60%;height:100%;float:left;">
 	        		<div style="padding:20px;"><img src="__PUBLIC__/Img/pic03.jpg" style="width:100%;height:210px;border:1px solid gray;"/></div>
@@ -57,67 +57,21 @@
 	        	</div>
         	</div>
         	<div style="width:50%;background-color:#EEEEEE;height:300px;float:right;">
-        		<div id="curve_container" style="width:100%;height:300px;">
-					
-				</div>
+				<pre style="font-size:16px;background-color:transparent;border:none;">
+    北京大学创于1898年，初名京师大学堂，是第一所国立综合性大学，也是当时中国的最高教育行政机关。辛亥革命后，于1912年改为现名。 
+    作为新文化运动的中心和“五四”运动的策源地，作为中国最早传播马克思主义和民主科学思想的发祥地，作为中国共产党最早的活动基地，北京大学为民族的振兴和解放、国家的建设和发展、社会的文明和进步做出了不可代替的贡献，在中国走向现代化的进程中起到了重要的先锋作用。爱国、进 步、民主、科学的传统精神和勤奋、严谨、求实、创新的学风在这里生生不息、代代相传。 <a href="#" style="text-decoration:underline;">详细</a>
+				</pre>
 			</div>
-			<div style="width:100%;background-color:#EEEEEE;height:800px;float:left;">
-				
-<script>
-jQuery(function($) {
-    	$("#curve_container").highcharts({
-	        title: {
-	            text: 'Monthly Average Temperature',
-	            x: -20 //center
-	        },
-	        exporting :{
-	        	url:'export/index.php',
-	        	width:800
-	        },
-	        subtitle: {
-	            text: 'Source: WorldClimate.com',
-	            x: -20
-	        },
-	        xAxis: {
-	            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun','Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-	        },
-	        yAxis: {
-	            title: {
-	                text: 'Temperature (°C)'
-	            },
-	            plotLines: [{
-	                value: 0,
-	                width: 1,
-	                color: '#808080'
-	            }]
-	        },
-	        tooltip: {
-	            valueSuffix: '°C'
-	        },
-	        legend: {
-	            layout: 'vertical',
-	            align: 'right',
-	            verticalAlign: 'middle',
-	            borderWidth: 0
-	        },
-	        series: [{
-	            name: 'Tokyo',
-	            data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
-	        }, {
-	            name: 'New York',
-	            data: [-0.2, 0.8, 5.7, 11.3, 17.0, 22.0, 24.8, 24.1, 20.1, 14.1, 8.6, 2.5]
-	        }, {
-	            name: 'Berlin',
-	            data: [-0.9, 0.6, 3.5, 8.4, 13.5, 17.0, 18.6, 17.9, 14.3, 9.0, 3.9, 1.0]
-	        }, {
-	            name: 'London',
-	            data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
-	        }]
-	    });
-	});	
+<script type="text/javascript">
+		$.ajax({
+			url:"?ReqType=map",
+			type:"get",
+			success:function(data){
+				$("#InfoDiv").html(data);
+			}
+		})
 </script>
-			</div>
-			
+			<div id="InfoDiv" style="width:100%;background-color:#EEEEEE;height:840px;float:left;"></div>
 			<div class="row" style="float:left;">
 			 <div class="col-xs-9" style="float:left;width:100%;">
 	          <div class="demo-browser" style="margin:0;background:none;padding-top:0px;background-color:#DDDDDD;">
@@ -148,6 +102,4 @@ jQuery(function($) {
         </div>
 			
 </div>
-				</div>
-			</div>
 <?php require 'Public/Inc/tail.inc.php'; ?>

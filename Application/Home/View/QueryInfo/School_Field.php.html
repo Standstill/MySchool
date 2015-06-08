@@ -1,0 +1,19 @@
+				<div class="pallete-item" style="width:100%;margin:0;">
+<?php
+	$Array = array();
+	
+	$Array[0] = array("工学","力学","电子信息","电子信息科技","计算机科学与技术","软件工程","航空航天工程","环境科学与工程类");
+	$Array[1] = array("法学","法学","国际政治","社会学");
+	$Array[2] = array("理学","数学","物理学","化学","天文学","地球物理学","地质学","生物科学");
+?>
+				 <?php for($i=0;$i<count($Array);$i++){ ?>
+					<dl class="palette palette-clouds" style="width:100%;float:left;">
+		              <dt><?php echo $Array[$i][0]; ?></dt>
+		            </dl>
+		            <?php for($ii=1;$ii<count($Array[$i]);$ii++){ ?>
+		            <dl class="palette palette-silver" style="width:18%;float:left;margin-left:1em;margin-top:0.5em;">
+		              <dt><?php echo $Array[$i][$ii]; ?></dt>
+		            </dl>
+		            <?php } ?>
+		          <?php } ?>
+			    </div>

@@ -1,6 +1,6 @@
 /* dropotron v1.3 | (c) n33 | n33.co @n33co | MIT + GPLv2 */
 
-(function(jQuery) {
+//(function(jQuery) {
 
 	jQuery.fn.disableSelection_dropotron = function() { return jQuery(this).css('user-select', 'none').css('-khtml-user-select', 'none').css('-moz-user-select', 'none').css('-o-user-select', 'none').css('-webkit-user-select', 'none'); }
 
@@ -397,4 +397,4 @@
 				});
 	};
 
-})(jQuery);
+//});
