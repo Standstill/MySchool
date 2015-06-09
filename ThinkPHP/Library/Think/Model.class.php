@@ -1426,7 +1426,7 @@ class Model {
             unset($this->_db[$linkNum]);
             return ;
         }
-
+        
         // 切换数据库连接
         $this->db   =    $this->_db[$linkNum];
         $this->_after_db();

@@ -12,16 +12,6 @@
 						<div class="12u" style="padding:0;">
 
 							<!-- Banner -->
-										
-<?php 
-	$SelectTitle = array("院校层次","院校所在地","院校分类","院校特色");
-
-	$SchoolSelect = array();
-	$SchoolSelect[0] = array("本科","专科");
-	$SchoolSelect[1] = array("四川","北京","上海","深圳");
-	$SchoolSelect[2] = array("综合","理工","财经");
-	$SchoolSelect[3] = array("211","985","国防");
-?>
 											<div style="width:1200px;height:220px;border:1px solid #1abc9c;border-radius:6px;">
 											<?php for($i=0;$i<count($SelectTitle);$i++){ ?>
 												<dl style="width:100%;height:25px;padding-top:10px;">
@@ -43,37 +33,40 @@
 							<table style="width:100%;height:auto;border-bottom:1px solid #2f4154;border-spacing:1px;border-collapse:separate;background-color:#CCCCCC;">
 								<thead style="border-bottom:2px solid gray;border-spacing:0px;border-collapse:initial;">
 									<tr style="background-color:#2f4154;height:50px;color:white;">
-										<td style="width:250px;">院校名称</td>
-										<td>院校排名</td>
-										<td>硕博点&重点学科</td>
-										<td>院校地区</td>
-										<td>院校层次</td>
-										<td>隶属</td>
-										<td>院校性质</td>
-										<td style="width:135px;">功能</td>
+									<?php for($i=0;$i<count($TableHead);$i++){ 
+											if($i == 0) $TableHeadTdWidth = "250px";
+											else if($i == count($SchoolInfo) -1 ) $TableHeadTdWidth = "135px";
+											else $TableHeadTdWidth = "auto";
+									?>
+										<td style="width:<?php echo $TableHeadTdWidth; ?>;"><?php echo $TableHead[$i]; ?></td>
+									<?php } ?>
 									</tr>
 								</thead>
-<?php 
-	$SchoolInfo = array();
-	$SchoolInfo[0] = array("北京大学","全国 1<br />综合 1","硕博点100<br />重点学科 100","北京","211工程<br />985院校","教育部","公立");
-	$SchoolInfo[1] = array("清华大学","全国 1<br />综合 2","硕博点100<br />重点学科 100","北京","211工程<br />985院校","教育部","公立");
-	$SchoolInfo[2] = array("大连理工大学","全国 27<br />综合 27","硕博点100<br />重点学科 100","辽宁","211工程<br />985院校","教育部","公立");
-	$SchoolInfo[3] = array("四川大学","全国 10<br />综合 10","硕博点100<br />重点学科 100","四川","211工程<br />985院校","教育部","公立");
-
-	$BackgroundColor = array("#FAFAFA","#EEEEEE");
-?>
 								<tbody>
-									<?php for($i=0;$i<count($SchoolInfo);$i++){ ?>
+									<?php for($i=0;$i<count($SchoolRst);$i++){ ?>
 									<tr style="background-color:#FAFAFA;">
 										<td>
 											<img src="__PUBLIC__/Plugin/FlatUI/img/icons/svg/compas.svg" alt="Compas" class="tile-image big-illustration"  style="vertical-align:middle;">
-											<small style="vertical-align:middle;"><?php echo $SchoolInfo[$i][0]; ?></small>
+											<small style="vertical-align:middle;"><?php echo $SchoolRst[$i]['universityname']; ?></small>
 										</td>
-										<?php for($j=1;$j<count($SchoolInfo[$i]);$j++){ ?>
 										<td>
-											<small><?php echo $SchoolInfo[$i][$j]; ?></small>
+											<small><?php echo $SchoolRst[$i]['countryrank']; ?></small>
 										</td>
-										<?php } ?>
+										<td>
+											<small><?php echo $SchoolRst[$i]['complexrank']; ?></small>
+										</td>
+										<td>
+											<small><?php echo $SchoolRst[$i]['province']; ?></small>
+										</td>
+										<td>
+											<small><?php echo $SchoolRst[$i]['university211']; ?></small>
+										</td>
+										<td>
+											<small><?php echo $SchoolRst[$i]['belong']; ?></small>
+										</td>
+										<td>
+											<small><?php echo $SchoolRst[$i]['property']; ?></small>
+										</td>
 										<td>
 											<a href="#fakelink" class="btn btn-block btn-lg btn-info" style="width:auto;height:30px;padding-top: 3px;padding-left: 17px;margin-left:1em;margin-right:1em;margin-top:0;font-size:0.8em;">加入对比</a>
 										</td>

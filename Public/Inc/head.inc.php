@@ -142,9 +142,9 @@
 								
 								<div class="row" style="height:30px;">
 									<div style="float:left;padding-top:0;padding-left:20px;">
-										<a href="#"><span style="color:black;font-size:0.8em;">查询信息</span></a>
+										<a href="#"><span style="color:black;font-size:0.8em;"><?php echo $guideparent; ?></span></a>
 										<span style="margin-left:0.5em;">></span>
-										<span style="margin-left:0.5em;color:#666666;font-size:0.8em;">院校排名</span>
+										<span style="margin-left:0.5em;color:#666666;font-size:0.8em;"><?php echo $guidechildren; ?></span>
 									</div>
 								</div>
 						</div>
